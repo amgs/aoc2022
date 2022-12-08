@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.10)
+set(CMAKE_C_STANDARD 11)
+project(AOC2022)
+foreach(day RANGE 1 7)
+    foreach(part RANGE 1 2)
+        add_executable(d${day}p${part} day${day}/part${part}.c)
+    endforeach()
+endforeach()

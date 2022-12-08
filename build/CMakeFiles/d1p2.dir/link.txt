@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/d1p2.dir/day1/part2.c.o -o d1p2 

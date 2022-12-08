@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/d5p1.dir/day5/part1.c.o -o d5p1 

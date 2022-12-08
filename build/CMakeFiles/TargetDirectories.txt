@@ -1,0 +1,16 @@
+/home/amgs/dev/aoc2022/build/CMakeFiles/d1p1.dir
+/home/amgs/dev/aoc2022/build/CMakeFiles/d1p2.dir
+/home/amgs/dev/aoc2022/build/CMakeFiles/d2p1.dir
+/home/amgs/dev/aoc2022/build/CMakeFiles/d2p2.dir
+/home/amgs/dev/aoc2022/build/CMakeFiles/d3p1.dir
+/home/amgs/dev/aoc2022/build/CMakeFiles/d3p2.dir
+/home/amgs/dev/aoc2022/build/CMakeFiles/d4p1.dir
+/home/amgs/dev/aoc2022/build/CMakeFiles/d4p2.dir
+/home/amgs/dev/aoc2022/build/CMakeFiles/d5p1.dir
+/home/amgs/dev/aoc2022/build/CMakeFiles/d5p2.dir
+/home/amgs/dev/aoc2022/build/CMakeFiles/d6p1.dir
+/home/amgs/dev/aoc2022/build/CMakeFiles/d6p2.dir
+/home/amgs/dev/aoc2022/build/CMakeFiles/d7p1.dir
+/home/amgs/dev/aoc2022/build/CMakeFiles/d7p2.dir
+/home/amgs/dev/aoc2022/build/CMakeFiles/edit_cache.dir
+/home/amgs/dev/aoc2022/build/CMakeFiles/rebuild_cache.dir

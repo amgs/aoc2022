@@ -1,5 +1,0 @@
-cmake_minimum_required(VERSION 3.10)
-set(CMAKE_C_STANDARD 11)
-project(day1)
-add_executable(part1 part1.c)
-add_executable(part2 part2.c)
