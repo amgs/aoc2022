@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/d7p1.dir/day7/part1.c.o -o d7p1 

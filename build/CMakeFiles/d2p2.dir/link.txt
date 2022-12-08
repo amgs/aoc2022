@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/d2p2.dir/day2/part2.c.o -o d2p2 

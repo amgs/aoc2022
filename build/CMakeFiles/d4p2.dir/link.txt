@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/d4p2.dir/day4/part2.c.o -o d4p2 
