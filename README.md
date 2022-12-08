@@ -4,12 +4,18 @@
 
 ## Usage
 
+Any day $X, \forall X \in [1,25]$, generates two executables (one for each part), such as $dXpY, \forall Y \in [1,2]$.
+
 ```bash
-cd dayX
-cmake -S src/ -B build/
-cmake --build build/
-./build/part1
-./build/part2
+cmake -S . -B build
+cmake --build build
+./build/dXpY
+```
+
+To build and run a specific part:
+
+```bash
+cmake --build build/ --target dXpY && ./build/dXpY 
 ```
 
 ## Dependencies
