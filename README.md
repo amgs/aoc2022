@@ -7,7 +7,7 @@
 Any day $X, \forall X \in [1,25]$, generates two executables (one for each part), such as $dXpY, \forall Y \in [1,2]$.
 
 ```bash
-cmake -S . -B build
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug
 cmake --build build
 ./build/dXpY
 ```
