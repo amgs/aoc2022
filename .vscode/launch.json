@@ -27,3 +27,7 @@
         }
     ]
 }
+// Add to settings
+// "cmake.debugConfig": {
+//     "cwd": "${workspaceFolder}",
+// },
