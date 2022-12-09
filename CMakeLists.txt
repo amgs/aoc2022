@@ -1,8 +1,13 @@
 cmake_minimum_required(VERSION 3.10)
 set(CMAKE_C_STANDARD 11)
 project(AOC2022)
+# Add library lib/stack
+add_subdirectory(lib)
 foreach(day RANGE 1 7)
     foreach(part RANGE 1 2)
         add_executable(d${day}p${part} day${day}/part${part}.c)
+        if(day EQUAL 7)
+            target_link_libraries(d${day}p${part} stack)
+        endif()
     endforeach()
 endforeach()
