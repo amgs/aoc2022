@@ -23,7 +23,7 @@ void update(int *arr, int value) {
     arr[3] = 0;
 }
 
-int main(int argc, char const *argv[]) {
+int main() {
     FILE *file = fopen("day1/input.txt", "r");
     char *line = NULL;
     size_t len = 0;

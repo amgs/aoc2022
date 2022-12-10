@@ -13,7 +13,7 @@ int main() {
     int count = 0;
     while(feof(f) == 0) {
         fscanf(f, "%d-%d,%d-%d\n", &as, &ae, &bs, &be);
-        if(as >= bs && ae <= be || bs >= as && be <= ae) {
+        if((as >= bs && ae <= be) || (bs >= as && be <= ae)) {
             count++;
         }
     }

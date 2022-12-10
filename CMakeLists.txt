@@ -1,9 +1,11 @@
 cmake_minimum_required(VERSION 3.10)
 set(CMAKE_C_STANDARD 11)
+set(CMAKE_BUILD_TYPE Debug)
+set(CMAKE_C_FLAGS_DEBUG "-g -Wall -Wextra -Werror -Wpedantic")
+set(CMAKE_C_FLAGS_RELEASE "-O3 -Wall -Wextra -Werror -Wpedantic")
 project(AOC2022)
-# Add library lib/stack
 add_subdirectory(lib)
-foreach(day RANGE 1 7)
+foreach(day RANGE 1 8)
     foreach(part RANGE 1 2)
         add_executable(d${day}p${part} day${day}/part${part}.c)
         if(day EQUAL 7)

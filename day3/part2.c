@@ -10,11 +10,11 @@
 #define TEAM_SIZE 3
 
 int get_badge_priority(char **team) {
-    for (int i = 0; i < strlen(team[0]); i++) {
+    for (int i = 0; i < (int)strlen(team[0]); i++) {
         char c = team[0][i];
         int match_counter = 1;
         for (int j = 1; j < TEAM_SIZE; j++) {
-            for (int k = 0; k < strlen(team[j]); k++) {
+            for (int k = 0; k < (int)strlen(team[j]); k++) {
                 if (c == team[j][k]) {
                     match_counter++;
                     break;

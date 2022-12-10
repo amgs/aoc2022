@@ -8,7 +8,7 @@
 #include <time.h>
 
 bool is_in(char *str, char c) {
-    for (int i = 0; i < strlen(str); i++) {
+    for (int i = 0; i < (int)strlen(str); i++) {
         if (str[i] == c) {
             return true;
         }

@@ -1,3 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 set(CMAKE_C_STANDARD 11)
+project(LIB)
+set(CMAKE_BUILD_TYPE Debug)
+set(CMAKE_C_FLAGS_DEBUG "-g -Wall -Wextra -Werror -Wpedantic")
+set(CMAKE_C_FLAGS_RELEASE "-O3 -Wall -Wextra -Werror -Wpedantic")
 add_library(stack stack/stack.c)

@@ -8,7 +8,6 @@
 #include <time.h>
 
 int score(char other, char mine) {
-    int ov = other - 'A' + 1;
     int mv = mine - 'X' + 1;
     int score;
     switch (other) {
